@@ -13,6 +13,7 @@ public class myAppTester {
 		input1=input.nextInt();
 		/*
 		 * This is a git sample code
+		 * to test branch
 		 */
 		
 		while(input1%2==0) {

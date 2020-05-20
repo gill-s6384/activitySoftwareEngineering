@@ -11,6 +11,16 @@ public class myAppTester {
 		int input1;
 		System.out.println("Enter an even number or 999 to stop");
 		input1=input.nextInt();
+		
+		
+		while(input1%2==0) {
+			System.out.println("Good job!");
+			System.out.println("Enter another even value or 999 to stop");
+			input1=input.nextInt();
+		}
+		
+		
+		
 	}
 
 }

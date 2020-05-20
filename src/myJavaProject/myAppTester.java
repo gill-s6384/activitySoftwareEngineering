@@ -17,6 +17,17 @@ public class myAppTester {
 			System.out.println("Good job!");
 			System.out.println("Enter another even value or 999 to stop");
 			input1=input.nextInt();
+		
+			if((input1%2)!=0) {
+				System.out.println("It is not an even number!");
+				System.out.println("Enter even value or 999 to stop");
+				input1=input.nextInt();
+			}
+			else if(input1==999) {
+				
+			}
+		
+		
 		}
 		
 		
